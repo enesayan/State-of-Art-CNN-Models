@@ -2,7 +2,7 @@ from keras.layers import Input, Dense, Flatten
 from keras.layers import Conv2D,MaxPooling2D,Dropout
 from keras.models import Model
 
-def build_vgg16(dim=(224,224,3), num_classes)
+def build_vgg16(dim, num_classes)
    
     img_input = Input(shape=dim)
     # Block 1
